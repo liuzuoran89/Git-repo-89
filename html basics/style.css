@@ -1,0 +1,84 @@
+div {
+height: 30vh;
+overflow: auto;
+border-style: groove;
+border-width: 10px;
+border-color: blue;
+margin:5px;
+background-color: ;
+border-top: 5px solid red;
+margin-right: 15vw;
+text-align: center;
+}
+
+a {
+  margin-left: 20px;
+
+}
+                  /* a visited active             Problems  */
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h3 {
+  background-color:yellow;
+
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+   }
+img {
+  height: 300px;
+  width:auto;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin:auto;
+}
+
+td, th {
+    border: 1px solid #eeeeee;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+input {
+  margin: 5px;
+}

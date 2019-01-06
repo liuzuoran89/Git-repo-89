@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="text-align:center">
+
+  <form action="/action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+
+  <br><br><br>
+
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+  <br><br><br>
+
+
+  <form action="/action_page.php">
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist><br>
+    <input type="submit">
+  </form>
+
+  <br><br><br>
+
+  <h2>Password field</h2>
+  <form action="">
+  User name:<br>
+  <input type="text" name="userid">
+  <br>
+  User password:<br>
+  <input type="password" name="psw">
+
+    <br><br><br>
+
+  </form>
+  <form action="/action_page.php">
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br><br>
+    <input type="submit">
+  </form>
+
+    <br><br><br>
+
+  <form action="/action_page.php">
+  <input type="checkbox" name="vehicle1" value="Bike">I have a bike
+  <br>
+  <input type="checkbox" name="vehicle2" value="Car">I have a car
+  <br><br>
+  <input type="submit">
+  </form>
+
+    <br><br><br>
+
+    <form action="/action_page.php">
+      Select your favorite color:
+      <input type="color" name="favcolor" value="#ff0000">
+      <input type="submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="/action_page.php">
+      Birthday:
+      <input type="date" name="bday">
+      <input type="submit" value="Submit">
+    </form>
+
+    <form action="/action_page.php">
+      E-mail:
+      <input type="email" name="email">
+      <input type="submit">
+    </form>
+
+        <br><br><br>
+
+        <form>
+          Quantity (between 1 and 10):
+          <input type="number" name="quantity" min="1" max="10">
+        </form>
+        <br><br><br>
+
+        <form action="/action_page.php">
+          Search Google:
+          <input type="search" name="googlesearch">
+          <input type="submit">
+        </form>
+
+  <br><br><br>
+        <form action="">
+          First name:<br>
+          <input type="text" name="firstname" value="John" disabled>
+        </form>
+
+  <br><br><br>
+
+        <form action="">
+          First name:<br>
+          <input type="text" name="firstname" value="John" size="40">
+        </form>
+
+  <br><br><br>
+        <form action="">
+        First name:<br>
+        <input type="text" name="firstname" maxlength="10">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        </form>
+
+    <br><br><br>    <br><br><br>    <br><br><br>
+
+</body>
+</html>
